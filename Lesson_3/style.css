@@ -1,11 +1,24 @@
-body { 
-background: #f8f8f8; 
+body {
+    background: #f8f8f8;
 }
 
-li {
-    list-style-type: none; /* Убираем маркеры */
-   }
-   ul {
-    margin-left: 0; 
-    padding-left: 0;
-   }
+.menu li {
+    margin: 0;
+    /* Обнуляем значение отступов */
+    padding: 5px;
+    /* Значение полей */
+    display: inline;
+    /* Отображать как строчный элемент */
+    margin-right: 5px;
+    /* Отступ слева */
+    border: 1px solid #000;
+    /* Рамка вокруг текста */
+    padding: 3px;
+    /* Поля вокруг текста */
+    text-decoration: none;
+}
+
+.menu a {
+    text-decoration: none;
+    /* Убираем подчёркивание */
+}
