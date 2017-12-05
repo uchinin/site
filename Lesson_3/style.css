@@ -5,17 +5,40 @@ body {
 .menu li {
     margin: 0;
     /* Обнуляем значение отступов */
-    padding: 5px;
+    padding: 20px;
     /* Значение полей */
     display: inline;
     /* Отображать как строчный элемент */
     margin-right: 5px;
     /* Отступ слева */
+    margin-bottom: 10px;
+    /* Отступ снизу */
     border: 1px solid #000;
     /* Рамка вокруг текста */
-    padding: 3px;
+    padding: 10px;
     /* Поля вокруг текста */
     text-decoration: none;
+    border-radius: 8px 3px;
+}
+
+.menu li:hover {
+    background: #FFBF00;
+    margin: 0;
+    /* Обнуляем значение отступов */
+    padding: 20px;
+    /* Значение полей */
+    display: inline;
+    /* Отображать как строчный элемент */
+    margin-right: 5px;
+    /* Отступ слева */
+    margin-bottom: 10px;
+    /* Отступ снизу */
+    border: 1px solid #8A0829;
+    /* Рамка вокруг текста */
+    padding: 10px;
+    /* Поля вокруг текста */
+    text-decoration: none;
+    border-radius: 8px 3px;
 }
 
 .menu a {
