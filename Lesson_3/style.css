@@ -2,51 +2,38 @@ body {
     background: #f8f8f8;
 }
 
-.menu li {
+.menu li a,
+.menu li a:hover {
     margin: 0;
     /* Обнуляем значение отступов */
     padding: 20px;
     /* Значение полей */
-    display: inline;
+    display: inline-block;
     /* Отображать как строчный элемент */
     margin-right: 5px;
     /* Отступ слева */
-    margin-bottom: 10px;
+    margin-bottom: 3px;
     /* Отступ снизу */
+    padding: 10px;
+    /* Поля вокруг текста */
+    text-decoration: none;
+    border-radius: 8px 3px;
+}
+
+
+.menu li a {
     border: 1px solid #000;
     /* Рамка вокруг текста */
-    padding: 10px;
-    /* Поля вокруг текста */
-    text-decoration: none;
-    border-radius: 8px 3px;
 }
 
-.menu li:hover {
+.menu li a:hover {
     background: #FFBF00;
-    margin: 0;
-    /* Обнуляем значение отступов */
-    padding: 20px;
-    /* Значение полей */
-    display: inline;
-    /* Отображать как строчный элемент */
-    margin-right: 5px;
-    /* Отступ слева */
-    margin-bottom: 10px;
-    /* Отступ снизу */
     border: 1px solid #8A0829;
     /* Рамка вокруг текста */
-    padding: 10px;
-    /* Поля вокруг текста */
-    text-decoration: none;
-    border-radius: 8px 3px;
 }
 
 
-.menu a {
+.menu li {
     text-decoration: none;
-    text-align: center;
-    /* Выравнивание по центру */
-    height: 100%;
-    /* Высота на весь слой */
-    /* Убираем подчёркивание */
+    display: inline
 }
