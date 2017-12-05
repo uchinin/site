@@ -1,0 +1,11 @@
+body { 
+background: #f8f8f8; 
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+   }
+   ul {
+    margin-left: 0; 
+    padding-left: 0;
+   }
