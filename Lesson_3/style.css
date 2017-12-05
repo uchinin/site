@@ -41,7 +41,10 @@ body {
     border-radius: 8px 3px;
 }
 
+
 .menu a {
     text-decoration: none;
+    text-align: center; /* Выравнивание по центру */
+     height: 100%; /* Высота на весь слой */
     /* Убираем подчёркивание */
 }
