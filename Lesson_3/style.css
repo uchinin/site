@@ -22,7 +22,6 @@ body {
     /*    Закругленные края*/
 }
 
-
 .menu li a {
     border: 1px solid #000;
     /* Рамка вокруг текста */
@@ -33,7 +32,6 @@ body {
     border: 1px solid #8A0829;
     /* Рамка вокруг текста */
 }
-
 
 .menu li {
     text-decoration: none;
