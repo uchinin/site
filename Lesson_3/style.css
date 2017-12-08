@@ -20,6 +20,35 @@ body {
     /*    Ссылки убирает _*/
     border-radius: 8px 3px;
     /*    Закругленные края*/
+    color: maroon;
+    /* Цвет текста */
+    font-weight: 500;
+    /* Жирное начертание */
+    font-family: glenjan, sans-serif;
+    font-size: 15pt;
+    /* Размер шрифта в пунктах */
+}
+
+@font-face {
+    font-family: glenjan;
+    /* Имя шрифта */
+    src: url(fonts/glenjan.otf);
+    /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+    font-family: allyson;
+    /* Имя шрифта */
+    src: url(fonts/allyson.otf);
+    /* Путь к файлу со шрифтом */
+}
+
+p.podp {
+    font-family: allyson;
+    /* Имя шрифта */
+    font-size: 20pt;
+    /* Размер шрифта в пунктах */
+    text-transform: capitalize;
 }
 
 .menu li a {
@@ -29,11 +58,64 @@ body {
 
 .menu li a:hover {
     background: #FFBF00;
-    border: 1px solid #8A0829;
+    border: 1px solid #000;
     /* Рамка вокруг текста */
+}
+
+.imgb {
+    background: #FFBF00;
+    border: 1px solid #000;
 }
 
 .menu li {
     text-decoration: none;
     display: inline
+}
+
+h2.zag {
+    color: black;
+    font-size: 18px;
+    /* Размер шрифта в пунктах */
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+.kratko {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.polnoe {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left
+}
+
+.opt {
+    color: brown;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    list-style-image: url(img/next.png);
+    /* Путь к изображению маркера */
+}
+
+.form {
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.inputs {
+    color: brown;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    clear: both;
+    text-align: left;
+    float: inherit;
+    text-transform: capitalize;
 }
