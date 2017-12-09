@@ -119,3 +119,9 @@ h2.zag {
     float: inherit;
     text-transform: capitalize;
 }
+
+label {
+    width: 150px;
+    display: block;
+    float: left;
+}
