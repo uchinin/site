@@ -67,6 +67,11 @@ p.podp {
     border: 1px solid #000;
 }
 
+.imgb:hover {
+    background: #f8f8f8;
+    border: 1px solid #f8f8f8;
+}
+
 .menu li {
     text-decoration: none;
     display: inline
@@ -92,7 +97,10 @@ h2.zag {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    text-align: left
+    text-align: left first-letter {
+        color red;
+        font-size: 35px;
+    }
 }
 
 .opt {
@@ -128,28 +136,45 @@ label {
 
 
 }
+
 table {
-  border-collapse: collapse; 
-  line-height: 1.1;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  color: #0C213B;
+    border-collapse: collapse;
+    line-height: 1.1;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #0C213B;
 }
+
 caption {
-  font-family: annabelle, cursive;
-  font-weight: bold;
-  font-size: 2em;
-  padding: 10px; 
-  color: #F3CD26;
-  text-shadow: 1px 1px 0 rgba(0,0,0,.3);
- }
-caption:before, caption:after {
-  content: "\274B";
-  color: #A9E2CC;
-  margin: 0 10px;
+    font-family: annabelle, cursive;
+    font-weight: bold;
+    font-size: 2em;
+    padding: 10px;
+    color: #F3CD26;
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, .3);
+}
+
+caption:before,
+caption:after {
+    content: "\274B";
+    color: #A9E2CC;
+    margin: 0 10px;
 }
 
 td {
-  font-size: 0.8em;
-  padding: 5px 7px;
-  border: 1px solid darkred;
+    font-size: 0.8em;
+    padding: 5px 7px;
+    border: 1px solid darkred;
+}
+
+.content p:first-letter {
+    font-family: allyson;
+    /* Имя шрифта */
+    font-size: 20pt;
+    /* Размер шрифта в пунктах */
+    text-transform: capitalize;
+}
+
+.logo
+{
+    text-align: center;
 }
