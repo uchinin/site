@@ -148,13 +148,12 @@ bady {
 }
 
 .footer{
-    display: block;
+    display: flex;
     text-transform: uppercase;
     text-decoration: none;
     padding: 0 98px;
     background: #f0f0f0f0;
     margin-left: auto;
     text-align: left;
-    margin-bottom: 34px;
     line-height: 100px;
 }
