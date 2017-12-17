@@ -146,3 +146,15 @@ bady {
     text-align: center;
     border-radius: 22.5px;
 }
+
+.footer{
+    display: block;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 98px;
+    background: #f0f0f0f0;
+    margin-left: auto;
+    text-align: left;
+    margin-bottom: 34px;
+    line-height: 100px;
+}
