@@ -1,6 +1,12 @@
+@import url('https://fots.googleapis.com/css?family=Montserrat:100,400,700');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+bady {
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
@@ -13,7 +19,7 @@
     background-image: url(img/slider.png);
     padding: 0 98px;
     -webkit-box-sizing: border-box;
-    -miz-box-sizing: border-box;
+    -moz-box-sizing: border-box;
     box-sizing: border-box;
 }
 
@@ -29,12 +35,13 @@
 .menu {
     display: flex;
     list-style-type: none;
+    margin-top: 57px;
 }
 
-.memu a {
+.menu a {
     color: #8c8c8c;
     font-size: 14px;
-    font-weight: 300px;
+    font-weight: 300;
     text-decoration: none;
     padding: 10px 13px;
 }
@@ -46,7 +53,7 @@
 
 .text-slider {
     margin-top: 282px;
-    width: 458px;
+    width: 498px;
 }
 
 .text-slider h4 {
@@ -85,22 +92,4 @@
     font-size: 18px;
     font-weight: 700;
     line-height: 24px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
