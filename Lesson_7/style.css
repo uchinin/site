@@ -963,7 +963,6 @@ input {
 .Terms-Conditions-Privacy-policy-Cookies {
     width: 350px;
     height: 12px;
-    font-family: Montserrat;
     font-size: 12px;
     font-weight: bold;
     font-style: normal;
@@ -972,4 +971,12 @@ input {
     letter-spacing: 0.6px;
     text-align: right;
     color: #6c6c6c;
+}
+
+.container5 {
+    width: 1366px;
+    margin: 0;
+}
+.slider5 {
+    background-image: url(img/slider2.png)
 }
